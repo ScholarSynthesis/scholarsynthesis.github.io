@@ -38,12 +38,13 @@
         float: right;
         padding-right: 85px;
     }
+
+    /*Eliminar header.header .text*/
     header.header .text {
-        margin: 60px auto 20px;
-        max-width: 630px;
+        
     }
     header.header .header_video {
-        margin: 80px auto 0;
+        margin: 0 auto 0;
         max-width: 630px;
     }
     section.user_part .useres_part .user_part_part {
@@ -88,6 +89,8 @@
 }
 
 @media (max-width: 767px) {
+
+
     .body {
         width: 100%;
         overflow: hidden;
@@ -106,7 +109,7 @@
         display: block;
     }
     header.header .header_video {
-        margin: 150px auto 0;
+        margin: 0 auto 0;
         max-width: 500px;
     }
     section .text>p {
@@ -190,10 +193,7 @@
         font-size: 24px;
         line-height: 30px;
     }
-    header.header .text h6 {
-        font-size: 16px;
-        line-height: 25px;
-    }
+
     .wrapper a.button {
         font-size: 12px;
         padding: 15px 20px;
